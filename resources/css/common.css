@@ -126,7 +126,7 @@ video {
 
 .rainbow {
     font-size: 60px;
-    animation: rainbow 1s infinite;
+    animation: rainbow 10s infinite;
     -webkit-text-stroke-color: #002E00;
     -webkit-text-stroke-width: thin;
 }
