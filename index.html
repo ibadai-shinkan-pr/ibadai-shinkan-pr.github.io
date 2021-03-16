@@ -1,54 +1,64 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <title>TOP|茨大新歓祭2020公式WEB</title>
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP|Noto+Serif+JP&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="shortcut icon" href="assets/images/favicon.ico">
+<head id="head">
+	<meta charset="UTF-8">
+	<title>Top|茨大新歓WEB</title>
+	<link rel="shortcut icon" href="resources/images/favicon.ico" type="image/x-icon">
+	<link rel="preconnect" href="//fonts.gstatic.com">
+	<link href="//fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="resources/css/common.css">
+	<script src="resources/js/style-user-agent.js"></script>
+	<noscript>
+		<link rel="stylesheet" href="resources/css/main.css">
+		<link rel="stylesheet" href="resources/css/index-main.css">
+	</noscript>
 </head>
 <body>
 <header>
-    <a href="index.html" class="no-decoration"><h1>茨大新歓祭2020公式WEB</h1></a>
-<!--    <a href="en/index.html">English</a>-->
-    <span id="update-date"><script src="assets/js/update-date.js"></script></span>
+	<h1 id="title" onclick="window.location.href=`index.html${window.location.search}`"><span class="accent">茨</span>大新歓WEB
+	</h1>
+	<nav>
+		<ul>
+			<li><a onclick="window.location.href=`index.html${window.location.search}`">TOP</a></li>
+			<li><a onclick="window.location.href=`circles.html${window.location.search}`">サークル紹介</a></li>
+			<li><a onclick="window.location.href=`links.html${window.location.search}`">リンク集</a></li>
+		</ul>
+	</nav>
 </header>
-<nav>
-    <menu>
-        <ul>
-            <li><a href="introduction.html"><img src="assets/images/List.png" alt="団体紹介"></a></li>
-            <li><a href="link.html"><img src="assets/images/Links.png" alt="リンク集・連絡先"></a></li>
-        </ul>
-    </menu>
-</nav>
-<div id="main-container">
-    <main>
-        <article>
-            <h2>連絡事項</h2>
-            <p>現在改修中です</p>
-            <p>今年度新歓祭は新型コロナウイルスの影響のため<span class="alert">中止</span>となりました。</p>
-        </article>
-        <article>
-            <h2><a href="assets/images/Pamphlet.pdf">パンフレット</a></h2>
-            <embed src="assets/images/Pamphlet.pdf" type="application/pdf" width="100%" height="850.178524651px">
-
-        </article>
-    </main>
-    <aside>
-        <article>
-            <section>
-                <div>
-                    <a class="twitter-timeline"
-                       href="https://twitter.com/IbadaiShinkanPR?ref_src=twsrc%5Etfw">Tweets by IbadaiShinkanPR</a>
-                    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-                </div>
-            </section>
-        </article>
-    </aside>
-</div>
-
+<main>
+	<article>
+		<h3 class="rainbow">ようこそ茨城大学へ！</h3>
+		<p>ここでは、茨城大学学友会に所属する団体について紹介しています。</p>
+		<p>
+			茨城大学学友会とは、茨城大学公認のサークルが集まってできた組織で、サークルがより円滑に活動できるよう協力しあっている組織です。２０２０年度は、１００の団体が所属しておりました。サークル紹介のページには、ジャンルごとに５つのブロック及びその他に分けて紹介しておりますので、自分に合ったサークルが見つかると思います。それぞれのサークルには連絡先が記載されていますので、詳細は直接ご確認ください。</p>
+		<h2>Information</h2>
+		<p>新型コロナウイルス感染症拡大に伴い令和３年４月１０日（土）新歓祭は中止となりました。</p>
+		<p>本ウェブサイトはWindows10:Chrome(88.0.4324.190)にて動作確認済みです。</p>
+	</article>
+</main>
+<aside>
+	<article>
+		<h2>連絡先</h2>
+		<dl>
+			<dt>新歓祭実行委員会(問合せはこちら)</dt>
+			<dd>ibarakiuniv.sk.pr☆gmail.com</dd>
+			<dd>☆→@</dd>
+			<dt>管理人(誤植・リンク切れなどの修正依頼はこちら)</dt>
+			<dd><a href="//twitter.com/Kimura_YUKAIA">茨城大学(up)LaTeX同好会(非公認)</a>の中の人</dd>
+		</dl>
+	</article>
+	<article>
+		<h2>公式Twitter</h2>
+		<div>
+			<a class="twitter-timeline" data-lang="ja" data-height="500" data-chrome=”transparent”
+			   href="//twitter.com/IbadaiShinkanPR?ref_src=twsrc%5Etfw">Tweets by IbadaiShinkanPR</a>
+			<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+		</div>
+	</article>
+</aside>
 <footer>
-    茨城大学新入生歓迎企画実行委員会広報課
+	<div class="right-align">茨城大学新歓祭実行委員会</div>
+	<div id="footer" class="center-align"></div>
 </footer>
 </body>
 </html>

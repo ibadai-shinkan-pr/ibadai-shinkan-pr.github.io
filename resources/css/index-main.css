@@ -1,0 +1,23 @@
+body {
+    display: grid;
+    /*grid-template-rows: 100px 50px 750px 50px;*/
+    grid-template-columns: 70% 1fr;
+    grid-template-areas:
+            "header header"
+            "main aside"
+            "footer footer";
+}
+
+header {
+    grid-area: header;
+}
+main {
+    grid-area: main;
+}
+aside {
+    padding-top: 170px;
+    grid-area: aside;
+}
+footer {
+    grid-area: footer;
+}
