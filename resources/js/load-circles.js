@@ -1,5 +1,5 @@
 $(function () {
-    let qty = 104
+    let qty = 130
     $.ajaxSetup({cache: false});
     if (isMobile) {
         for (let i = 0; i < qty; i++) {
