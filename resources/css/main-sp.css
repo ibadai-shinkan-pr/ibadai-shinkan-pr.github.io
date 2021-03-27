@@ -167,3 +167,8 @@ dt {
 dd {
     word-break: break-all;
 }
+
+.tab {
+    font-size: 3vw;
+    font-weight: bold;
+}
