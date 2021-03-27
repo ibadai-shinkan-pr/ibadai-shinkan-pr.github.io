@@ -1,15 +1,15 @@
 body {
-    font-size: xxx-large;
+    /*font-size: xxx-large;*/
     text-align: center;
 }
 
 p {
-    font-size: xx-large;
+    /*font-size: xx-large;*/
     text-indent: 0;
 }
 
 button {
-    font-size: 40px;
+    font-size: x-large;
 }
 
 nav > ul {
@@ -128,7 +128,7 @@ details {
 
 .content-area {
     margin: 0 10px;
-    font-size: 30px;
+    /*font-size: 30px;*/
     text-align: center;
 }
 
@@ -152,7 +152,7 @@ dl {
     margin: 0;
     padding: 5px;
     text-align: left;
-    font-size: x-large;
+    /*font-size: x-large;*/
 }
 
 dt {
