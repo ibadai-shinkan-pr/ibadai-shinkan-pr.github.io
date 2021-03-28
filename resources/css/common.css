@@ -1,6 +1,9 @@
 body {
-    font-family: 'Noto Sans', sans-serif;
-    background: #DDFFDD;
+    /*font-family: 'Noto Sans', sans-serif;*/
+    /*font-family: 'Open Sans', sans-serif;*/
+    /*font-family: 'Yusei Magic', sans-serif;*/
+    font-family: 'Sawarabi Gothic', sans-serif;
+    background: #f0ffdd;
 }
 
 .center-align {
@@ -51,6 +54,8 @@ article > section {
 article > section > details > summary {
     background: midnightblue;
     color: white;
+    border-radius: 10px;
+    padding: 5px;
 }
 
 article > section > details > section {
@@ -62,7 +67,7 @@ article > section > details > section {
 h1 {
     color: #00A497 !important;
     -webkit-text-stroke-color: #002E00;
-    -webkit-text-stroke-width: thin;
+    /*-webkit-text-stroke-width: 1px;*/
 }
 
 .accent {
@@ -77,6 +82,9 @@ th {
 /*    text-align: center!important;*/
 /*}*/
 
+dd {
+    font-weight: bold;
+}
 
 iframe {
     display: block;
@@ -128,5 +136,6 @@ video {
     font-size: 60px;
     animation: rainbow 10s infinite;
     -webkit-text-stroke-color: #002E00;
-    -webkit-text-stroke-width: thin;
+    /*-webkit-text-stroke-width: 1px;*/
 }
+

@@ -7,7 +7,7 @@ header {
     grid-area: header;
     position: fixed;
     width: 100%;
-    background: #AAFFAA;
+    background: #e8ffaa;
     top: 0;
     left: 0;
     height: 170px;
@@ -39,6 +39,7 @@ nav > ul > li {
     vertical-align: middle;
     flex-grow: 1;
     border: wheat 1px solid;
+    border-radius: 20px;
 }
 
 nav > ul > li:hover {
