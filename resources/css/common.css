@@ -82,7 +82,7 @@ th {
 /*    text-align: center!important;*/
 /*}*/
 
-dd {
+dt {
     font-weight: bold;
 }
 
@@ -139,3 +139,17 @@ video {
     /*-webkit-text-stroke-width: 1px;*/
 }
 
+.section-header {
+    background: midnightblue;
+    color: white;
+    border-radius: 10px;
+    padding: 5px;
+    display: block;
+}
+a.section-header {
+    text-decoration: none;
+}
+
+details {
+    border-bottom: #002E00 1px dashed;
+}

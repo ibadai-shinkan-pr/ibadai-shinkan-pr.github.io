@@ -2,7 +2,8 @@ let userAgent = navigator.userAgent;
 let url = window.location.href;
 let query = window.location.search;
 
-// console.log(url)
+console.log(url)
+console.log(query)
 
 let head = document.getElementById('head');
 
@@ -28,7 +29,6 @@ if (isMobile) {
 
 window.onload = function () {
     let footer = document.getElementById('footer');
-    // let title = document.getElementById('title');
     if (isMobile) {
         // title.insertAdjacentText('afterend', '(Closed Alpha Version)');
         footer.insertAdjacentHTML('beforeend', `<button onclick="window.location.search = '?pc'";>PC版はこちら</button>`)
@@ -38,4 +38,5 @@ window.onload = function () {
     if (isUAMobile) {
         footer.insertAdjacentHTML('beforeend', `<button class="center" onclick="window.location.reload();">強制再読み込み</button>`)
     }
+    // let title = document.getElementById('title');
 }
